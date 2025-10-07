@@ -79,7 +79,7 @@ module renode_apb3_requester #(int RenodeToCosimIndex = 0) (
     S_SETUP,
     S_ACCESS
   } state_t;
-  state_t state = S_IDLE;
+  state_t state;
 
   //
   // Waveform generation
